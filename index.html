@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Sahu — Aspiring Software Engineer</title>
+  <meta name="description"
+    content="Portfolio of Prince Sahu — 2nd-year CSE student at RGIPT, aspiring software engineer specializing in full-stack web development and cybersecurity." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>PS<span class="logo-bracket">/&gt;</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="mailto:sahuprinc2019@gmail.com" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <!-- Background Glows -->
+    <div class="glow glow-blue"></div>
+    <div class="glow glow-orange"></div>
+    <div class="glow glow-purple"></div>
+    <div class="dot-grid"></div>
+    <div class="beam"></div>
+
+    <!-- === FLOWING LIGHT CONTAINER (huly.io style) === -->
+    <div class="hero-glow-container" id="heroGlowContainer">
+      <div class="hero-glow-inner">
+
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Open to Internships
+          </div>
+          <h1 class="hero-title">
+            Building <span class="gradient-text">Secure</span><br />
+            &amp; Scalable<br />
+            <span class="gradient-text-warm">Software</span>
+          </h1>
+          <p class="hero-subtitle">
+            CSE Student at RGIPT · Aspiring Software Engineer<br />
+            Python · JavaScript · C/C++ · Cybersecurity · Web Dev
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn-primary" id="viewWorkBtn">View My Work</a>
+            <a href="#contact" class="btn-ghost">Get In Touch</a>
+          </div>
+          <!-- Floating Stats -->
+          <div class="hero-stats">
+            <div class="stat-card" id="statProjects">
+              <span class="stat-num">8.3</span>
+              <span class="stat-label">CGPA / 10</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card" id="statYears">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card" id="statTech">
+              <span class="stat-num">8+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Code Card -->
+        <div class="hero-visual">
+          <div class="code-card glass-card">
+            <div class="code-card-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-title">portfolio.tsx</span>
+            </div>
+            <pre class="code-block"><code id="typewriter"><span class="tok-kw">const</span> <span class="tok-fn">developer</span> = {
+  name: <span class="tok-str">"Prince Sahu"</span>,
+  role: <span class="tok-str">"CSE Student @ RGIPT"</span>,
+  stack: [
+    <span class="tok-str">"Python"</span>, <span class="tok-str">"JavaScript"</span>,
+    <span class="tok-str">"C/C++"</span>, <span class="tok-str">"Next.js"</span>,
+    <span class="tok-str">"Firebase"</span>, <span class="tok-str">"Linux"</span>
+  ],
+  cgpa: <span class="tok-str">"8.3 / 10"</span>,
+  seeking: <span class="tok-str">"Internship 2026"</span>,
+  openToWork: <span class="tok-bool">true</span>
+};</code></pre>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm <strong>Prince Sahu</strong> — a 2nd-year CSE student at <strong>Rajiv Gandhi Institute of Petroleum
+              Technology (RGIPT)</strong>, deeply interested in full-stack web development and cybersecurity.</p>
+          <p>I've built a <strong>secure data-wiping tool</strong> using military-grade sanitization algorithms, and
+            <strong>Motopack</strong> — a real-time ride-sharing social platform for motorcycle enthusiasts, live on
+            Vercel.
+          </p>
+          <p>Currently expanding my skills in <strong>AI/ML</strong> and actively looking for an internship or
+            entry-level position where I can contribute and grow.</p>
+          <div class="about-chips">
+            <span class="chip">🎓 RGIPT — B.Tech CSE</span>
+            <span class="chip">📍 Raebareli, India</span>
+            <span class="chip">🏆 Reliance Foundation Scholar</span>
+            <span class="chip">🌐 Open to Internships</span>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="mini-card glass-card" id="mcWeb">
+            <div class="mini-icon">🌐</div>
+            <div class="mini-label">Web Dev</div>
+            <div class="mini-sub">Next.js · React · Firebase · Node.js</div>
+          </div>
+          <div class="mini-card glass-card" id="mcSecurity">
+            <div class="mini-icon">🔒</div>
+            <div class="mini-label">Cybersecurity</div>
+            <div class="mini-sub">Ethical Hacking · Data Sanitization · Linux</div>
+          </div>
+          <div class="mini-card glass-card" id="mcLang">
+            <div class="mini-icon">💻</div>
+            <div class="mini-label">Programming</div>
+            <div class="mini-sub">C · C++ · Python · JavaScript · Kotlin</div>
+          </div>
+          <div class="mini-card glass-card" id="mcAI">
+            <div class="mini-icon">🤖</div>
+            <div class="mini-label">Learning Now</div>
+            <div class="mini-sub">AI/ML · DSA · TypeScript · System Design</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-dark">
+    <div class="glow glow-skills-blue"></div>
+    <div class="glow glow-skills-orange"></div>
+    <div class="section-inner">
+      <div class="section-tag">Skills & Tools</div>
+      <h2 class="section-title">Tech Stack</h2>
+      <p class="section-sub">Tools and technologies I work with daily</p>
+
+      <div class="skills-bento">
+        <!-- Programming Languages -->
+        <div class="bento-card bento-wide glass-card" id="bentoLang">
+          <div class="bento-label">Programming Languages</div>
+          <div class="skill-pills">
+            <span class="skill-pill pill-blue">C</span>
+            <span class="skill-pill pill-blue">C++</span>
+            <span class="skill-pill pill-yellow">JavaScript</span>
+            <span class="skill-pill pill-orange">Python</span>
+            <span class="skill-pill pill-purple">Kotlin</span>
+            <span class="skill-pill pill-green">HTML5 / CSS3</span>
+            <span class="skill-pill pill-cyan">Node.js</span>
+          </div>
+        </div>
+
+        <!-- Web Dev -->
+        <div class="bento-card glass-card" id="bentoFront">
+          <div class="bento-label">Web Development</div>
+          <div class="skill-pills">
+            <span class="skill-pill pill-blue">Next.js</span>
+            <span class="skill-pill pill-cyan">React</span>
+            <span class="skill-pill pill-orange">Firebase</span>
+            <span class="skill-pill pill-green">Leaflet / OSM</span>
+          </div>
+        </div>
+
+        <!-- Cybersecurity -->
+        <div class="bento-card glass-card" id="bentoCyber">
+          <div class="bento-label">Cybersecurity</div>
+          <div class="skill-pills">
+            <span class="skill-pill pill-orange">Ethical Hacking</span>
+            <span class="skill-pill pill-purple">DoD 5220.22-M</span>
+            <span class="skill-pill pill-green">Data Sanitization</span>
+            <span class="skill-pill pill-gray">Linux</span>
+          </div>
+        </div>
+
+        <!-- CS Fundamentals -->
+        <div class="bento-card glass-card" id="bentoCS">
+          <div class="bento-label">CS Fundamentals</div>
+          <div class="skill-pills">
+            <span class="skill-pill pill-blue">DSA</span>
+            <span class="skill-pill pill-cyan">OOP (C++/Java)</span>
+            <span class="skill-pill pill-purple">DBMS</span>
+            <span class="skill-pill pill-green">COA</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="bento-card bento-wide glass-card" id="bentoTools">
+          <div class="bento-label">Tools &amp; Platforms</div>
+          <div class="skill-pills">
+            <span class="skill-pill pill-gray">Git · GitHub</span>
+            <span class="skill-pill pill-gray">VS Code</span>
+            <span class="skill-pill pill-gray">Linux</span>
+            <span class="skill-pill pill-gray">Vercel</span>
+            <span class="skill-pill pill-gray">Firebase Console</span>
+            <span class="skill-pill pill-gray">Postman</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="glow glow-proj-purple"></div>
+    <div class="section-inner">
+      <div class="section-tag">Projects</div>
+      <h2 class="section-title">What I've Built</h2>
+      <p class="section-sub">A selection of my recent work</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Motopack -->
+        <div class="project-card glass-card featured" id="projMotopack">
+          <div class="project-header">
+            <div class="project-icon">🏍️</div>
+            <span class="project-badge">Featured</span>
+          </div>
+          <h3 class="project-title">Motopack — Bikers Social Platform</h3>
+          <p class="project-desc">A full-stack social platform for motorcyclists to discover, plan, and share rides.
+            Features real-time route planning via Leaflet &amp; OpenStreetMap, live group chats, dynamic feed
+            dashboards, and a custom Hybrid Architecture blending server-rendered React with legacy vanilla JS.</p>
+          <div class="project-tags">
+            <span>Next.js</span><span>React</span><span>Firebase</span><span>Leaflet / OSM</span><span>Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="https://bikers-flax.vercel.app/" target="_blank" class="proj-link" id="linkMotopackLive">Live Demo
+              →</a>
+            <a href="https://github.com/Prince4157" target="_blank" class="proj-link-ghost"
+              id="linkMotopackGh">GitHub</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <!-- Project 2: Apoha -->
+        <div class="project-card glass-card" id="projApoha">
+          <div class="project-header">
+            <div class="project-icon">🔒</div>
+          </div>
+          <h3 class="project-title">Apoha — Secure Data-Wiping Tool</h3>
+          <p class="project-desc">A cross-platform utility to permanently delete files, preventing recovery by forensic
+            software. Implements DoD 5220.22-M and Gutmann sanitization algorithms for secure data overwriting using
+            Python's os, shutil, and pathlib libraries.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Cybersecurity</span><span>DoD 5220.22-M</span><span>Gutmann</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Prince4157/apohawipe" target="_blank" class="proj-link" id="linkApohaGh">GitHub
+              →</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <!-- Project 3: Portfolio -->
+        <div class="project-card glass-card" id="projPortfolio">
+          <div class="project-header">
+            <div class="project-icon">💼</div>
+          </div>
+          <h3 class="project-title">This Portfolio</h3>
+          <p class="project-desc">A premium portfolio site inspired by Huly.io's design language — featuring
+            glassmorphism, bento grids, flowing light border animations, glow effects, and smooth scroll animations.
+            Pure HTML/CSS/JS.</p>
+          <div class="project-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Prince4157" target="_blank" class="proj-link" id="linkPortfolioGh">GitHub →</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section section-dark">
+    <div class="glow glow-exp-blue"></div>
+    <div class="section-inner">
+      <div class="section-tag">Education &amp; Journey</div>
+      <h2 class="section-title">My Journey</h2>
+
+      <div class="timeline">
+
+        <!-- School -->
+        <div class="timeline-item" id="tlSchool">
+          <div class="timeline-dot">
+            <div class="dot-inner"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Higher Secondary (Class XII — ICSE)</h3>
+                <span class="tl-company">St. James School</span>
+              </div>
+              <span class="tl-date">2022 – 2023</span>
+            </div>
+            <p class="tl-desc">Scored 91.4% with a focus on Mathematics. Ranked 1st in class and among the top 5%
+              students in the district.</p>
+            <div class="tl-tags">
+              <span>91.4%</span><span>Rank 1 in Class</span><span>ICSE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RGIPT -->
+        <div class="timeline-item" id="tlRGIPT">
+          <div class="timeline-dot">
+            <div class="dot-inner"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">B.Tech in Computer Science &amp; Engineering</h3>
+                <span class="tl-company">Rajiv Gandhi Institute of Petroleum Technology (RGIPT)</span>
+              </div>
+              <span class="tl-date">2024 – 2028</span>
+            </div>
+            <p class="tl-desc">2nd-year CSE student with a CGPA of 8.3/10. Relevant coursework includes Data Structures
+              &amp; Algorithms, OOP in C++/Java, Database Management Systems, and Computer Organization &amp;
+              Architecture. Recipient of the Reliance Foundation Scholarship 2024–28.</p>
+            <div class="tl-tags">
+              <span>DSA</span><span>OOP</span><span>DBMS</span><span>COA</span><span>CGPA: 8.3</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Apoha Project -->
+        <div class="timeline-item" id="tlApoha">
+          <div class="timeline-dot">
+            <div class="dot-inner"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Cybersecurity Tool Developer</h3>
+                <span class="tl-company">Apoha — Academic Project</span>
+              </div>
+              <span class="tl-date">2024</span>
+            </div>
+            <p class="tl-desc">Built a cross-platform secure data-wiping utility in Python that permanently deletes
+              files, preventing forensic recovery. Implemented DoD 5220.22-M and Gutmann sanitization algorithms using
+              Python's os, shutil, and pathlib libraries.</p>
+            <div class="tl-tags">
+              <span>Python</span><span>Cybersecurity</span><span>DoD 5220.22-M</span><span>Gutmann</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" id="tlMotopack">
+          <div class="timeline-dot">
+            <div class="dot-inner"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Full-Stack Web Developer</h3>
+                <span class="tl-company">Motopack — Academic Project (Live)</span>
+              </div>
+              <span class="tl-date">2024 – Present</span>
+            </div>
+            <p class="tl-desc">Designed and launched a Next.js/React social platform for motorcyclists. Integrated
+              Leaflet &amp; OpenStreetMap for real-time route planning, engineered Firebase Auth/Firestore for live
+              group chats, and implemented a custom Hybrid Architecture to blend server-rendered React with legacy
+              vanilla JS.</p>
+            <div class="tl-tags">
+              <span>Next.js</span><span>Firebase</span><span>Leaflet</span><span>Vercel</span>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="glow glow-contact-blue"></div>
+    <div class="glow glow-contact-orange"></div>
+    <div class="section-inner contact-inner">
+      <div class="section-tag">Contact</div>
+      <h2 class="section-title">Let's Build Together</h2>
+      <p class="section-sub">Have a project in mind? I'd love to hear about it.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item glass-card" id="contactEmail">
+            <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg></span>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:sahuprinc2019@gmail.com" class="contact-val">sahuprinc2019@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card" id="contactPhone">
+            <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg></span>
+            <div>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+916394666273" class="contact-val">+91 6394666273</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card" id="contactGh">
+            <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                </path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg></span>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/Prince4157" target="_blank" class="contact-val">github.com/Prince4157</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card" id="contactLi">
+            <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg></span>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/prince-sahu-7198171b7/" target="_blank"
+                class="contact-val">linkedin.com/in/prince-sahu</a>
+            </div>
+          </div>
+          <a href="resume.pdf" download="Prince_Sahu_Resume.pdf" class="contact-item glass-card" id="contactResume"
+            style="text-decoration: none; cursor: pointer; display: flex;">
+            <span class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg></span>
+            <div>
+              <span class="contact-label">Resume</span>
+              <span class="contact-val" style="color: var(--accent-blue);">Download PDF</span>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form glass-card" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="fmsg">Message</label>
+            <textarea id="fmsg" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="formSubmit">Send Message 🚀</button>
+          <div class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="dot-grid"></div>
+    <div class="footer-inner">
+      <a href="#" class="nav-logo footer-logo">
+        <span class="logo-bracket">&lt;</span>PS<span class="logo-bracket">/&gt;</span>
+      </a>
+      <p class="footer-copy">© 2026 Prince Sahu · RGIPT CSE ·</p>
+      <div class="footer-links">
+        <a href="https://github.com/Prince4157" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/prince-sahu-7198171b7/" target="_blank">LinkedIn</a>
+        <a href="mailto:sahuprinc2019@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
